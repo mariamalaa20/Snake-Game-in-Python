@@ -20,3 +20,18 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/snake-game.git
 cd snake-game
+
+#  Then, run the game using Python
+python main.py
+
+#  Project Structure
+
+snake-game/
+├── food.py               # Contains the Food class (for food generation)
+├── scoreboard.py         # Contains the Scoreboard class (handles scoring)
+├── snake.py              # Contains the Snake class (defines the snake's behavior)
+├── main.py               # Main game loop and screen setup
+├── data.txt              # Stores the high score
+
+
+
